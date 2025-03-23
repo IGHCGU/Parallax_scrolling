@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shell {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 3px;
+    /*关键*/
+}
+
+.shell div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.img {
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+    transform: translateZ(-1px) scale(1.6);
+}
+
+.img1 {
+    background-image: url(./_august_von_parseval_and_august_von_parseval_azur_lane_drawn_by_ano_madoka23_6296ab0de50f53b6d48560f5e766b381-gigapixel-standard-scale-2_00x.jpg);
+}
+
+.img2 {
+    background-image: url(./_august_von_parseval_azur_lane_drawn_by_salmon88_1e10ca79f669ef3b3dadca6f27ff2123.jpg);
+}
+
+.img3 {
+    background-image: url(./_bluecher_bruenhilde_and_bruenhilde_azur_lane_drawn_by_nishikikope_8a708e3fa1d70ff37280d4175b187952.jpg);
+}
+
+.img4 {
+    background-image: url(./_indomitable_and_indomitable_azur_lane_drawn_by_ano_madoka23_09a8ab133651a14524f3f67c9d6130f3-gigapixel-standard-scale-2_00x.jpg);
+}
+
+.title {
+    transform: translateZ(1px) translateY(-35vh);
+    z-index: -1;
+    color: #fff;
+}
+
+.title h1 {
+    font-size: 100px;
+}
+
+.test {
+    background-color: #fff;
+    height: 50vh;
+}

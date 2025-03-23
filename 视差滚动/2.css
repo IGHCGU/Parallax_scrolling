@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    background-size: cover;
+    background-attachment: fixed;
+    /*关键属性*/
+    height: 100vh;
+    background-position: center center;
+}
+
+.title {
+    background: -webkit-linear-gradient(-225deg, #FFFFCC 0%, #CCFFFF 48%, #FFCCCC 100%);
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(60vh);
+    font-size: 25vh;
+}
+
+.sheel {
+    position: relative;
+    letter-spacing: 3px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+}
+
+.test {
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-225deg, #FFFFCC 0%, #CCFFFF 48%, #FFCCCC 100%);
+    height: 15vh;
+}
+
+.img1 {
+    background-image: url(./_august_von_parseval_and_august_von_parseval_azur_lane_drawn_by_ano_madoka23_6296ab0de50f53b6d48560f5e766b381-gigapixel-standard-scale-2_00x.jpg);
+}
+
+.img2 {
+    background-image: url(./_august_von_parseval_azur_lane_drawn_by_salmon88_1e10ca79f669ef3b3dadca6f27ff2123.jpg);
+}
+
+.img3 {
+    background-image: url(./_bluecher_bruenhilde_and_bruenhilde_azur_lane_drawn_by_nishikikope_8a708e3fa1d70ff37280d4175b187952.jpg);
+}
+
+.img4 {
+    background-image: url(./_indomitable_and_indomitable_azur_lane_drawn_by_ano_madoka23_09a8ab133651a14524f3f67c9d6130f3-gigapixel-standard-scale-2_00x.jpg);
+}
